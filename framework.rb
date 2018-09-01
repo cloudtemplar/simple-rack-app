@@ -47,7 +47,6 @@ class App
           return nil unless path_comp == spec_comp
         end
       end
-
       block.call(params)
     end
   end
