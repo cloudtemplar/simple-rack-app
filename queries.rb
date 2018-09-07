@@ -3,8 +3,8 @@ QUERIES = {
     SELECT * FROM todos
   },
 
-  find_todo_by_description: %{
+  find_todo_by_title: %{
     SELECT * FROM todos
-    WHERE description = '%s'
+    WHERE title = '%s'
   }
 }

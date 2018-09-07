@@ -11,10 +11,10 @@ APP = App.new do
     'This is the root!'
   end
 
-  get '/todos/:description' do |params|
-    description = params.fetch('description')
-    todo = DB.find_todo_by_description(description).fetch(0)
-    "You have to do #{todo.fetch('description')} today"
+  get '/todos/:title' do |params|
+    title = params.fetch('title')
+    todo = DB.find_todo_by_title(title).fetch(0)
+    "You have to do #{todo.fetch('title')} today"
   end
 
   get '/todos' do
