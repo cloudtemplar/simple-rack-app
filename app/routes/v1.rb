@@ -4,7 +4,7 @@ module Routes
       version 'v1'
       format :json
 
-      mount Routes::V1::Todos
+      mount Todos
     end
   end
 end
