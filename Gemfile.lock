@@ -60,6 +60,8 @@ GEM
     rack (1.6.4)
     rack-accept (0.4.5)
       rack (>= 0.4)
+    rack-token_auth (0.1.0)
+      rack
     rake (10.5.0)
     rspec (3.8.0)
       rspec-core (~> 3.8.0)
@@ -94,6 +96,7 @@ DEPENDENCIES
   otr-activerecord (~> 1.2.1)
   pry
   rack (~> 1.6.0)
+  rack-token_auth
   rake
   rspec
   sqlite3

@@ -1,4 +1,5 @@
 require './config/environment'
+require './app/todo_list'
 $:.unshift Config.root.join('lib')
 
 # Connect to database
